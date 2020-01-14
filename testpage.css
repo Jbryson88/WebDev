@@ -1,0 +1,30 @@
+body {
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+.navbar-header{
+ background-color: transparent;
+ border-color: transparent;
+}
+
+.center-text {
+    z-index: 2;
+    border: 10px dashed #fff;
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 35px;
+}
+.center {
+    background-image: url(http://getwallpapers.com/wallpaper/full/2/8/f/109566.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(3px);
+}

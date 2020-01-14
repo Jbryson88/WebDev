@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+  .column-33 {
+                float: left;
+                width: 33.3333%;
+                padding: 20px;
+            }
+
+          @media screen and (max-width: 1000px) {
+                .column-66, 
+                .column-33 {
+                    width: 100%;
+                    text-align: center;
+                }
+                img {
+                    margin: auto;
+               
+                }                
+            }
