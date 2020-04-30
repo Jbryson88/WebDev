@@ -1,0 +1,33 @@
+h1 h4 {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    display: block;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+img {
+    background-color: ;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+body {
+    background-color:black;
+    text-align: center;
+}
+
+#main {
+    text-align: center;
+}

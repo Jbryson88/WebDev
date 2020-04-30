@@ -1,0 +1,44 @@
+1 header {
+    2 text-align: center;
+    3 font-family: 'Cinzel', serif;
+    4 font-size: 1rem;
+    5
+}
+
+6 ​ 7 #name-label {
+    8 float: left;
+    9
+}
+
+10 ​ 11 #email-label {
+    12 float: right;
+    13
+}
+
+14 ​ 15 body {
+    16 text-align: center;
+    17 background-image: url(http://getwallpapers.com/wallpaper/full/4/4/5/15130.jpg);
+    18 -webkit-background-size: cover;
+    19 background-size: cover;
+    20 background-position: center center;
+    21 height: 100vh;
+    22 position: fixed;
+    23 left: 0;
+    24 right: 0;
+    25 z-index: -1;
+    26 backdrop-filter: blur(5px);
+    27 -webkit-filter: blur(.5px);
+    28 color: white;
+    29 z-index: 2;
+    30 width: 650px;
+    31 position: relative;
+    32 top: 50%;
+    33 left: 50%;
+    34 transform: translate(-50%, -50%);
+    35 font-family: 'Cinzel', serif;
+    36 text-transform: uppercase;
+    37
+}
+
+38 ​ 39 textarea {
+    40 background: black;

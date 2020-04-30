@@ -1,0 +1,44 @@
+.topheading {
+    text-align: center;
+    font-size: 3vh;
+    background: url(https://images.pexels.com/photos/3379257/pexels-photo-3379257.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    width: 100%;
+    position: absolute;
+    font-family: 'Cinzel', serif;
+    color: white;
+    border: solid 2px white;
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 3vh;
+}
+
+.imgarea {
+    background: url(https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        filter: blur(5px);
+        -webkit-filter: blur(1px);
+}
+
+.biosection {
+    
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    border:solid 1px dashed white;
+}
+
+.danimg {
+    float:left;
+}
+
+.chrisimg {
+    float:right;
+}
+

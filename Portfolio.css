@@ -1,0 +1,78 @@
+
+.img-background {
+        background-image: url(https://images.pexels.com/photos/3331094/pexels-photo-3331094.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        filter: blur(5px);
+        -webkit-filter: blur(.1px);
+}
+
+.links {
+    text-align: center;
+    color: white;
+}
+
+.left {
+    color: cornsilk;
+    font-size: 3rem;
+    
+}
+.middle {
+    color: cornsilk;
+    font-size: 3rem;
+    
+}
+.right {
+    color: cornsilk;
+    font-size: 3rem;   
+
+}
+
+
+
+body {
+    font-family: 'IM Fell Great Primer SC',
+    serif;
+}
+
+.border-img {
+    background-image: url(https://images.pexels.com/photos/3310466/pexels-photo-3310466.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    height: 165px;
+    width: 1460px; 
+}
+
+.container {
+    border: 3px solid #fff;
+    color: #fff;
+    text-align: center;
+    margin: 20%;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20%;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 4em;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+
+    .container > .border-img {
+          width: auto;
+          height : auto;
+          max-height: 100%;
+          max-width: 100%;
+    }
+
+    

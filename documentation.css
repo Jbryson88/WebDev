@@ -1,0 +1,27 @@
+
+@media only screen (max-width:815px)
+#navbar {
+    background-color:white;
+    position: fixed;
+    top:0;
+    padding: 0%;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+
+}
+
+
+
+header{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+nav {
+    display: block;
+}
